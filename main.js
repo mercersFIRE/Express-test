@@ -12,7 +12,7 @@ app.get('/', getWeather, (req, res) => {
     <input type="text" name="color">
     <button>Submit</button>
     </form>
-    <p>${req.var ? "YES" : "NO"}</p>
+    <p>${req.var ? "Hi" : "NO"}</p>
     `)
 })
 app.get('/about', (req, res) => {
